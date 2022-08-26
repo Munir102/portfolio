@@ -1,0 +1,51 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+    ...
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /* .left_menu .profile p {
+        font-size: 14px;
+    }
+    .services_card .s_card1 {
+        padding: 40px 72px 16px 44px;
+        margin-left: 53px;
+    }
+    .services_card .s_card2 {
+        padding: 40px 72px 16px 44px;
+        margin-left: 53px;
+    }
+    .services_card .s_card3 {
+        padding: 40px 72px 16px 44px;
+        margin-left: 53px;
+    } */
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    ...
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    ...
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    ...
+}
